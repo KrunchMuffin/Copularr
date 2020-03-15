@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/logic/automation/lidarr.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/logic/automation/lidarr.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class LidarrEditArtist extends StatefulWidget {
     final LidarrCatalogueEntry entry;

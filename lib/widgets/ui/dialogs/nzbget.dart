@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/logic/clients/nzbget.dart';
-import 'package:lunasea/core.dart';
+import 'package:copularr/logic/clients/nzbget.dart';
+import 'package:copularr/core.dart';
 
 class NZBGetDialogs {
     NZBGetDialogs._();

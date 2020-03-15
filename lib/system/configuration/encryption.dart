@@ -1,6 +1,6 @@
 import 'package:encrypt/encrypt.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/system.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/system.dart';
 
 class Encryption {
     Encryption._();
@@ -14,7 +14,7 @@ class Encryption {
             final _encrypted = _encrypter.encrypt(data, iv: iv).base64;
             return _encrypted;
         } catch (e) {
-            Logger.error('package:lunasea/configuration/encryption.dart', 'encryptData', 'Encryption error', e, StackTrace.current);
+            Logger.error('package:copularr/configuration/encryption.dart', 'encryptData', 'Encryption error', e, StackTrace.current);
         }
         return Constants.ENCRYPTION_FAILURE;
     }
@@ -27,7 +27,7 @@ class Encryption {
             final _encrypter = Encrypter(AES(key));
             return _encrypter.decrypt64(data, iv: iv);
         } catch (e) {
-            Logger.error('package:lunasea/configuration/encryption.dart', 'decryptData', 'Decryption error', e, StackTrace.current);
+            Logger.error('package:copularr/configuration/encryption.dart', 'decryptData', 'Decryption error', e, StackTrace.current);
         }
         return Constants.ENCRYPTION_FAILURE;
     }

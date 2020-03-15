@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/widgets/ui.dart';
-import 'package:lunasea/routes/settings/subpages/clients/tabs/tabs.dart';
+import 'package:copularr/widgets/ui.dart';
+import 'package:copularr/routes/settings/subpages/clients/tabs/tabs.dart';
 
 class Clients extends StatefulWidget {
     @override

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_networkimage/provider.dart';
-import 'package:lunasea/logic/automation/sonarr.dart';
-import 'package:lunasea/routes/sonarr/subpages/details/edit.dart';
-import 'package:lunasea/routes/sonarr/subpages/details/season.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/logic/automation/sonarr.dart';
+import 'package:copularr/routes/sonarr/subpages/details/edit.dart';
+import 'package:copularr/routes/sonarr/subpages/details/season.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class SonarrShowDetails extends StatefulWidget {
     final SonarrCatalogueEntry entry;
@@ -514,7 +514,7 @@ class _State extends State<SonarrShowDetails> {
         return NestedScrollView(
             headerSliverBuilder: (context, innerBoxIsScrolled) => [
                 SliverOverlapAbsorber(
-                    child: SliverSafeArea(
+                    sliver: SliverSafeArea(
                         top: false,
                         bottom: false,
                         sliver: SliverAppBar(

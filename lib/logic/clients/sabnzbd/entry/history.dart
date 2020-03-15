@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/core.dart';
+import 'package:copularr/core.dart';
 
 class SABnzbdHistoryEntry {
     String nzoId;

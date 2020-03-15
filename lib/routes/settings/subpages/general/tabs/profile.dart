@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/system.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/system.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class Profile extends StatefulWidget {
     @override

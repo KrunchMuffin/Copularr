@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_networkimage/provider.dart';
-import 'package:lunasea/logic/automation/lidarr.dart';
-import 'package:lunasea/routes/lidarr/subpages/details/album.dart';
-import 'package:lunasea/routes/lidarr/subpages/details/edit.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/logic/automation/lidarr.dart';
+import 'package:copularr/routes/lidarr/subpages/details/album.dart';
+import 'package:copularr/routes/lidarr/subpages/details/edit.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class LidarrArtistDetails extends StatefulWidget {
     final LidarrCatalogueEntry entry;
@@ -98,7 +98,7 @@ class _State extends State<LidarrArtistDetails> {
         return NestedScrollView(
             headerSliverBuilder: (context, innerBoxIsScrolled) => [
                 SliverOverlapAbsorber(
-                    child: SliverSafeArea(
+                    sliver: SliverSafeArea(
                         top: false,
                         bottom: false,
                         sliver: SliverAppBar(

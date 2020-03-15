@@ -1,2 +1,2 @@
-export 'package:lunasea/routes/settings/subpages/clients/tabs/nzbget.dart';
-export 'package:lunasea/routes/settings/subpages/clients/tabs/sabnzbd.dart';
+export 'package:copularr/routes/settings/subpages/clients/tabs/nzbget.dart';
+export 'package:copularr/routes/settings/subpages/clients/tabs/sabnzbd.dart';

@@ -2,9 +2,9 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
-import 'package:lunasea/routes.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/system.dart';
+import 'package:copularr/routes.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/system.dart';
 
 void main() async {
     WidgetsFlutterBinding.ensureInitialized();
@@ -28,7 +28,7 @@ class _BIOS extends StatelessWidget {
         return StoreProvider(
             store: store,
             child: MaterialApp(
-                title: 'LunaSea',
+                title: 'Copularr',
                 debugShowCheckedModeBanner: false,
                 routes: _setRoutes(),
                 theme: _setTheme(),
@@ -63,31 +63,31 @@ class _BIOS extends StatelessWidget {
             ),
             unselectedWidgetColor: Colors.white,
             textTheme: TextTheme(
-                body1: TextStyle(
+                bodyText2: TextStyle(
                     color: Colors.white,
                     letterSpacing: Constants.LETTER_SPACING,
                 ),
-                body2: TextStyle(
+                bodyText1: TextStyle(
                     color: Colors.white,
                     letterSpacing: Constants.LETTER_SPACING,
                 ),
-                display1: TextStyle(
+                headline4: TextStyle(
                     color: Colors.white,
                     letterSpacing: Constants.LETTER_SPACING,
                 ),
-                display2: TextStyle(
+                headline3: TextStyle(
                     color: Colors.white,
                     letterSpacing: Constants.LETTER_SPACING,
                 ),
-                display3: TextStyle(
+                headline2: TextStyle(
                     color: Colors.white,
                     letterSpacing: Constants.LETTER_SPACING,
                 ),
-                display4: TextStyle(
+                headline1: TextStyle(
                     color: Colors.white,
                     letterSpacing: Constants.LETTER_SPACING,
                 ),
-                headline: TextStyle(
+                headline5: TextStyle(
                     color: Colors.white,
                     letterSpacing: Constants.LETTER_SPACING,
                 ),
@@ -99,15 +99,15 @@ class _BIOS extends StatelessWidget {
                     color: Colors.white,
                     letterSpacing: Constants.LETTER_SPACING,
                 ),
-                title: TextStyle(
+                headline6: TextStyle(
                     color: Colors.white,
                     letterSpacing: Constants.LETTER_SPACING,
                 ),
-                subtitle: TextStyle(
+                subtitle2: TextStyle(
                     color: Colors.white,
                     letterSpacing: Constants.LETTER_SPACING,
                 ),
-                subhead: TextStyle(
+                subtitle1: TextStyle(
                     color: Colors.white,
                     letterSpacing: Constants.LETTER_SPACING,
                 ),

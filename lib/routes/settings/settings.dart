@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/widgets/ui.dart';
-import 'package:lunasea/routes/settings/subpages.dart';
+import 'package:copularr/widgets/ui.dart';
+import 'package:copularr/routes/settings/subpages.dart';
 
 class Settings extends StatefulWidget {
     @override

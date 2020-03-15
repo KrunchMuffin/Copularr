@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/logic/automation/sonarr.dart';
-import 'package:lunasea/core.dart';
+import 'package:copularr/logic/automation/sonarr.dart';
+import 'package:copularr/core.dart';
 import 'package:intl/intl.dart';
 
 class SonarrDialogs {

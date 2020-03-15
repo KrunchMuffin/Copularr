@@ -1,3 +1,3 @@
-export 'package:lunasea/core/extensions/bytes.dart';
-export 'package:lunasea/core/extensions/datetime.dart';
-export 'package:lunasea/core/extensions/functions.dart';
+export 'package:copularr/core/extensions/bytes.dart';
+export 'package:copularr/core/extensions/datetime.dart';
+export 'package:copularr/core/extensions/functions.dart';

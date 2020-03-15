@@ -1,12 +1,12 @@
 import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/system.dart';
-import 'package:lunasea/logic/clients/nzbget.dart';
-import 'package:lunasea/routes/nzbget/subpages.dart';
-import 'package:lunasea/routes/nzbget/subpages/statistics/statistics.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/system.dart';
+import 'package:copularr/logic/clients/nzbget.dart';
+import 'package:copularr/routes/nzbget/subpages.dart';
+import 'package:copularr/routes/nzbget/subpages/statistics/statistics.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class NZBGet extends StatefulWidget {
     @override
@@ -240,7 +240,7 @@ class _State extends State<NZBGet> {
     }
 
     Future<void> _handleNZBFile() async {
-        File file = await FilePicker.getFile(type: FileType.ANY);
+        File file = await FilePicker.getFile(type: FileType.any);
         if(file != null) {
             if(file.path.endsWith('nzb') || file.path.endsWith('zip')) {
                 String data = await file.readAsString();

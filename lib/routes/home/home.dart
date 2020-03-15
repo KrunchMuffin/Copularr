@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/widgets/ui.dart';
-import 'package:lunasea/routes/home/subpages.dart';
+import 'package:copularr/widgets/ui.dart';
+import 'package:copularr/routes/home/subpages.dart';
 
 class Home extends StatefulWidget {
     @override
@@ -52,7 +52,7 @@ class _State extends State<Home> {
                         )
                 ],
             ),
-            appBar: Navigation.getAppBar('LunaSea', context),
+            appBar: Navigation.getAppBar('Copularr', context),
             drawer: Navigation.getDrawer('home', context),
             bottomNavigationBar: Navigation.getBottomNavigationBar(_currIndex, _icons, _titles, _navOnTap),
         );

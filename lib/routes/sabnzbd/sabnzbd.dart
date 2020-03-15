@@ -1,13 +1,13 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/system.dart';
-import 'package:lunasea/logic/clients/sabnzbd.dart';
-import 'package:lunasea/logic/clients/sabnzbd/entry.dart';
-import 'package:lunasea/routes/sabnzbd/subpages.dart';
-import 'package:lunasea/routes/sabnzbd/subpages/statistics/statistics.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/system.dart';
+import 'package:copularr/logic/clients/sabnzbd.dart';
+import 'package:copularr/logic/clients/sabnzbd/entry.dart';
+import 'package:copularr/routes/sabnzbd/subpages.dart';
+import 'package:copularr/routes/sabnzbd/subpages/statistics/statistics.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class SABnzbd extends StatefulWidget {
     @override
@@ -249,7 +249,7 @@ class _State extends State<SABnzbd> {
     }
 
     Future<void> _handleNZBFile() async {
-        File file = await FilePicker.getFile(type: FileType.ANY);
+        File file = await FilePicker.getFile(type: FileType.any);
         if(file != null) {
             if(file.path.endsWith('nzb') || file.path.endsWith('zip')) {
                 String data = await file.readAsString();

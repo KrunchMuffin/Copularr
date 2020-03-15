@@ -1,4 +1,4 @@
-import 'package:lunasea/core.dart';
+import 'package:copularr/core.dart';
 
 extension BytesExtension on int {
     String toStringFromBytes({ int decimals = 2 }) {

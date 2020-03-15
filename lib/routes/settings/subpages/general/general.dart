@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/widgets/ui.dart';
-import 'package:lunasea/routes/settings/subpages/general/tabs/tabs.dart';
+import 'package:copularr/widgets/ui.dart';
+import 'package:copularr/routes/settings/subpages/general/tabs/tabs.dart';
 
 class General extends StatefulWidget {
     @override
@@ -14,7 +14,7 @@ class _State extends State<General> {
         'Profile',
         'Configuration',
         'Logs',
-        'LunaSea',
+        'Copularr',
     ];
 
     @override
@@ -28,7 +28,7 @@ class _State extends State<General> {
                         Profile(),
                         BackupRestore(),
                         Logs(),
-                        LunaSea(),
+                        Copularr(),
                     ],
                 ),
             ),

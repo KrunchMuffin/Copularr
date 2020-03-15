@@ -1,1 +1,1 @@
-export 'package:lunasea/logic/system/version.dart';
+export 'package:copularr/logic/system/version.dart';

@@ -1,8 +1,8 @@
-export 'package:lunasea/widgets/ui/connection_error.dart';
-export 'package:lunasea/widgets/ui/dialog.dart';
-export 'package:lunasea/widgets/ui/elements.dart';
-export 'package:lunasea/widgets/ui/icons.dart';
-export 'package:lunasea/widgets/ui/loading.dart';
-export 'package:lunasea/widgets/ui/notifications.dart';
-export 'package:lunasea/widgets/ui/navigation.dart';
-export 'package:lunasea/widgets/ui/reorderable_list.dart';
+export 'package:copularr/widgets/ui/connection_error.dart';
+export 'package:copularr/widgets/ui/dialog.dart';
+export 'package:copularr/widgets/ui/elements.dart';
+export 'package:copularr/widgets/ui/icons.dart';
+export 'package:copularr/widgets/ui/loading.dart';
+export 'package:copularr/widgets/ui/notifications.dart';
+export 'package:copularr/widgets/ui/navigation.dart';
+export 'package:copularr/widgets/ui/reorderable_list.dart';

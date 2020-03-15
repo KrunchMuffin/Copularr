@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_networkimage/provider.dart';
-import 'package:lunasea/logic/automation/radarr.dart';
-import 'package:lunasea/routes/radarr/subpages/details/edit.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/routes/radarr/subpages/details/tabs/tabs.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/logic/automation/radarr.dart';
+import 'package:copularr/routes/radarr/subpages/details/edit.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/routes/radarr/subpages/details/tabs/tabs.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class RadarrMovieDetails extends StatefulWidget {
     final RadarrCatalogueEntry entry;
@@ -88,7 +88,7 @@ class _State extends State<RadarrMovieDetails> {
         return NestedScrollView(
             headerSliverBuilder: (context, innerBoxIsScrolled) => [
                 SliverOverlapAbsorber(
-                    child: SliverSafeArea(
+                    sliver: SliverSafeArea(
                         top: false,
                         bottom: false,
                         sliver: SliverAppBar(

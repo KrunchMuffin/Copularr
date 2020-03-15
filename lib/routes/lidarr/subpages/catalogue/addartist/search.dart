@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/logic/automation/lidarr.dart';
-import 'package:lunasea/routes/lidarr/subpages/catalogue/addartist/details.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/logic/automation/lidarr.dart';
+import 'package:copularr/routes/lidarr/subpages/catalogue/addartist/details.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class LidarrArtistSearch extends StatefulWidget {
     @override

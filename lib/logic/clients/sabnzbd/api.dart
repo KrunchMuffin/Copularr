@@ -1,17 +1,17 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:lunasea/system.dart';
-import 'package:lunasea/logic/clients/sabnzbd.dart';
+import 'package:copularr/system.dart';
+import 'package:copularr/logic/clients/sabnzbd.dart';
 
 class SABnzbdAPI {
     SABnzbdAPI._();
 
     static void logWarning(String methodName, String text) {
-        Logger.warning('package:lunasea/logic/clients/sabnzbd/api.dart', methodName, 'SABnzbd: $text');
+        Logger.warning('package:copularr/logic/clients/sabnzbd/api.dart', methodName, 'SABnzbd: $text');
     }
 
     static void logError(String methodName, String text, Object error) {
-        Logger.error('package:lunasea/logic/clients/sabnzbd/api.dart', methodName, 'SABnzbd: $text', error, StackTrace.current);
+        Logger.error('package:copularr/logic/clients/sabnzbd/api.dart', methodName, 'SABnzbd: $text', error, StackTrace.current);
     }
     
     static Future<bool> testConnection(List<dynamic> values) async {

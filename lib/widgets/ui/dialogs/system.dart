@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class SystemDialogs {
     SystemDialogs._();
@@ -12,7 +12,7 @@ class SystemDialogs {
             builder: (BuildContext context) {
                 return AlertDialog(
                     title: Text(
-                        'Sign Out of LunaSea',
+                        'Sign Out of Copularr',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
@@ -45,7 +45,7 @@ class SystemDialogs {
                     ],
                     content: SingleChildScrollView(
                         child: Text(
-                            'Are you sure you want to sign out?\n\nSigning out may disable functionality within LunaSea.',
+                            'Are you sure you want to sign out?\n\nSigning out may disable functionality within Copularr.',
                             style: TextStyle(
                                 color: Colors.white,
                             ),
@@ -171,7 +171,7 @@ class SystemDialogs {
                     ],
                     content: SingleChildScrollView(
                         child: Text(
-                            'A new version of LunaSea is available!\n\nUse your preferred method of installation to get the newest version.',
+                            'A new version of Copularr is available!\n\nUse your preferred method of installation to get the newest version.',
                             style: TextStyle(
                                 color: Colors.white,
                             ),
@@ -924,7 +924,7 @@ class SystemDialogs {
             builder: (BuildContext context) {
                 return AlertDialog(
                     title: Text(
-                        'Purchase LunaSea Pro',
+                        'Purchase Copularr Pro',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
@@ -957,7 +957,7 @@ class SystemDialogs {
                     ],
                     content: SingleChildScrollView(
                         child: Text(
-                            'For the period that LunaSea is in pre-release/beta, all Pro features are free. Please tap "Enable Pro" below to fetch your license from the database.\n\nIf the the license is not fetched, please wait a few minutes and try again.',
+                            'For the period that Copularr is in pre-release/beta, all Pro features are free. Please tap "Enable Pro" below to fetch your license from the database.\n\nIf the the license is not fetched, please wait a few minutes and try again.',
                             style: TextStyle(
                                 color: Colors.white,
                             ),
@@ -1217,7 +1217,7 @@ class SystemDialogs {
                                         text: 'Are you sure you want to export all recorded logs to the filesystem?\n\nThe exported logs can be found in\n',
                                     ),
                                     TextSpan(
-                                        text: 'On My <Device>/LunaSea/FLogs',
+                                        text: 'On My <Device>/Copularr/FLogs',
                                         style: TextStyle(
                                             color: Color(Constants.ACCENT_COLOR),
                                             fontWeight: FontWeight.bold,

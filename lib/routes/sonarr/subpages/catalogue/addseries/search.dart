@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/logic/automation/sonarr.dart';
-import 'package:lunasea/routes/sonarr/subpages/catalogue/addseries/details.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/logic/automation/sonarr.dart';
+import 'package:copularr/routes/sonarr/subpages/catalogue/addseries/details.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class SonarrSeriesSearch extends StatefulWidget {
     @override

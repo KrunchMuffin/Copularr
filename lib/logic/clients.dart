@@ -1,2 +1,2 @@
-export 'package:lunasea/logic/clients/nzbget.dart';
-export 'package:lunasea/logic/clients/sabnzbd.dart';
+export 'package:copularr/logic/clients/nzbget.dart';
+export 'package:copularr/logic/clients/sabnzbd.dart';

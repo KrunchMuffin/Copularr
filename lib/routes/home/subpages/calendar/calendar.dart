@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/logic.dart';
-import 'package:lunasea/widgets/pages/home.dart';
-import 'package:lunasea/widgets/ui.dart' as UI;
+import 'package:copularr/core.dart';
+import 'package:copularr/logic.dart';
+import 'package:copularr/widgets/pages/home.dart';
+import 'package:copularr/widgets/ui.dart' as UI;
 
 class Calendar extends StatefulWidget {
     @override

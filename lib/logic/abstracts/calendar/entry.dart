@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/logic/abstracts.dart';
+import 'package:copularr/logic/abstracts.dart';
 
 abstract class CalendarEntry implements Entry {
     int id;

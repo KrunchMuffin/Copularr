@@ -1,4 +1,4 @@
-export 'package:lunasea/logic/abstracts/calendar.dart';
+export 'package:copularr/logic/abstracts/calendar.dart';
 
 abstract class API {
     void logWarning(String methodName, String text);

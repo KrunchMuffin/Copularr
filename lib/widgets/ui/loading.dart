@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/widgets.dart';
+import 'package:copularr/widgets.dart';
 
 class Loading extends StatelessWidget {
     @override

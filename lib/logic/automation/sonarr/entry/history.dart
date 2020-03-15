@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/system.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/system.dart';
 
 abstract class SonarrHistoryEntry {
     String seriesTitle;

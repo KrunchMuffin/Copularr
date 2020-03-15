@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/logic/automation/radarr.dart';
-import 'package:lunasea/core.dart';
+import 'package:copularr/logic/automation/radarr.dart';
+import 'package:copularr/core.dart';
 
 class RadarrDialogs {
     RadarrDialogs._();

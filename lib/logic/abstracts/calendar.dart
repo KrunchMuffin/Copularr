@@ -1,1 +1,1 @@
-export 'package:lunasea/logic/abstracts/calendar/entry.dart';
+export 'package:copularr/logic/abstracts/calendar/entry.dart';

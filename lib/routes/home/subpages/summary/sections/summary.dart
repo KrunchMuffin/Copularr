@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/widgets/ui.dart';
 
 List buildSummary(BuildContext context, List<String> services, int sonarr, int radarr, int lidarr) {
     return [

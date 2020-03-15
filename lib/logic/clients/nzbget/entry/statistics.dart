@@ -1,4 +1,4 @@
-import 'package:lunasea/core.dart';
+import 'package:copularr/core.dart';
 
 class NZBGetStatisticsEntry {
     int freeSpaceHigh;

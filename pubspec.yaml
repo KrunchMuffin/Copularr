@@ -1,4 +1,4 @@
-name: lunasea
+name: copularr
 description: iOS Usenet Manager
 version: 1.1.0+44
 
@@ -56,11 +56,11 @@ flutter:
         - asset: assets/CustomIcons.ttf
 
 flutter_icons:
-  android: false
+  android: true
   ios: true
   image_path: "assets/icon/icon.png"
 
 flutter_native_splash:
   image: "assets/icon/icon.png"
   color: "#32323E"
-  android: false
+  android: true

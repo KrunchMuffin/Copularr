@@ -1,5 +1,5 @@
-export 'package:lunasea/logic/abstracts.dart';
-export 'package:lunasea/logic/automation.dart';
-export 'package:lunasea/logic/clients.dart';
-export 'package:lunasea/logic/calendar.dart';
-export 'package:lunasea/logic/system.dart';
+export 'package:copularr/logic/abstracts.dart';
+export 'package:copularr/logic/automation.dart';
+export 'package:copularr/logic/clients.dart';
+export 'package:copularr/logic/calendar.dart';
+export 'package:copularr/logic/system.dart';

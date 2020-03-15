@@ -1,2 +1,2 @@
-export 'package:lunasea/widgets/pages.dart';
-export 'package:lunasea/widgets/ui.dart';
+export 'package:copularr/widgets/pages.dart';
+export 'package:copularr/widgets/ui.dart';

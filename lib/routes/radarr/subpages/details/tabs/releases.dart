@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/logic/automation/radarr.dart';
-import 'package:lunasea/routes/radarr/subpages/details/release.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/logic/automation/radarr.dart';
+import 'package:copularr/routes/radarr/subpages/details/release.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class RadarrReleases extends StatefulWidget {
     final GlobalKey<ScaffoldState> scaffoldKey;

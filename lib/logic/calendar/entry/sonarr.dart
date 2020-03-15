@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:lunasea/routes/sonarr/subpages/details/show.dart';
-import 'package:lunasea/system.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/logic/abstracts.dart';
+import 'package:copularr/routes/sonarr/subpages/details/show.dart';
+import 'package:copularr/system.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/logic/abstracts.dart';
 
 class CalendarSonarrEntry extends CalendarEntry {
     String episodeTitle;

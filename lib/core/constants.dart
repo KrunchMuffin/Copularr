@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/logic/automation/radarr.dart';
+import 'package:copularr/logic/automation/radarr.dart';
 
 class Constants {
     Constants._();

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/logic/clients/sabnzbd.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/logic/clients/sabnzbd.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class SABnzbdHistoryDetails extends StatefulWidget {
     final SABnzbdHistoryEntry entry;

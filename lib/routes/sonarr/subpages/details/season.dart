@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_sticky_header/flutter_sticky_header.dart';
-import 'package:lunasea/logic/automation/sonarr.dart';
-import 'package:lunasea/routes/sonarr/subpages/details/selectable_card.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/logic/automation/sonarr.dart';
+import 'package:copularr/routes/sonarr/subpages/details/selectable_card.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class SonarrSeasonDetails extends StatefulWidget {
     final String title;

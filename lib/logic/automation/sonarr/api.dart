@@ -1,18 +1,18 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
-import 'package:lunasea/system.dart';
-import 'package:lunasea/logic/automation/sonarr.dart';
+import 'package:copularr/system.dart';
+import 'package:copularr/logic/automation/sonarr.dart';
 
 class SonarrAPI {
     SonarrAPI._();
 
     static void logWarning(String methodName, String text) {
-        Logger.warning('package:lunasea/logic/automation/sonarr/api.dart', methodName, 'Sonarr: $text');
+        Logger.warning('package:copularr/logic/automation/sonarr/api.dart', methodName, 'Sonarr: $text');
     }
 
     static void logError(String methodName, String text, Object error) {
-        Logger.error('package:lunasea/logic/automation/sonarr/api.dart', methodName, 'Sonarr: $text', error, StackTrace.current);
+        Logger.error('package:copularr/logic/automation/sonarr/api.dart', methodName, 'Sonarr: $text', error, StackTrace.current);
     }
     
     static Future<bool> testConnection(List<dynamic> values) async {

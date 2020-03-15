@@ -1,18 +1,18 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:lunasea/core.dart';
-import 'package:lunasea/system.dart';
-import 'package:lunasea/logic/clients/nzbget.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/system.dart';
+import 'package:copularr/logic/clients/nzbget.dart';
 
 class NZBGetAPI {
     NZBGetAPI._();
 
     static void logWarning(String methodName, String text) {
-        Logger.warning('package:lunasea/logic/clients/nzbget/api.dart', methodName, 'NZBGet: $text');
+        Logger.warning('package:copularr/logic/clients/nzbget/api.dart', methodName, 'NZBGet: $text');
     }
 
     static void logError(String methodName, String text, Object error) {
-        Logger.error('package:lunasea/logic/clients/nzbget/api.dart', methodName, 'NZBGet: $text', error, StackTrace.current);
+        Logger.error('package:copularr/logic/clients/nzbget/api.dart', methodName, 'NZBGet: $text', error, StackTrace.current);
     }
 
     static String getURL(String uri, String username, String password) {

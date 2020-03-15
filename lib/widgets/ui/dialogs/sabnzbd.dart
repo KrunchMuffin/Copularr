@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/logic/clients/sabnzbd/entry.dart';
-import 'package:lunasea/core.dart';
+import 'package:copularr/logic/clients/sabnzbd/entry.dart';
+import 'package:copularr/core.dart';
 
 class SABnzbdDialogs {
     SABnzbdDialogs._();

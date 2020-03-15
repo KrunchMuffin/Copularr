@@ -1,2 +1,2 @@
-export 'package:lunasea/logic/automation/radarr/api.dart';
-export 'package:lunasea/logic/automation/radarr/entry.dart';
+export 'package:copularr/logic/automation/radarr/api.dart';
+export 'package:copularr/logic/automation/radarr/entry.dart';

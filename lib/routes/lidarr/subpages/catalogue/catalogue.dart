@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_advanced_networkimage/provider.dart';
-import 'package:lunasea/logic/automation/lidarr.dart';
-import 'package:lunasea/routes/lidarr/subpages/details/artist.dart';
-import 'package:lunasea/routes/lidarr/subpages/details/edit.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/widgets/ui.dart';
+import 'package:copularr/logic/automation/lidarr.dart';
+import 'package:copularr/routes/lidarr/subpages/details/artist.dart';
+import 'package:copularr/routes/lidarr/subpages/details/edit.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/widgets/ui.dart';
 
 class Catalogue extends StatefulWidget {
     final GlobalKey<RefreshIndicatorState> refreshIndicatorKey;

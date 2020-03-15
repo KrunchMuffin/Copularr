@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/logic/automation/lidarr.dart';
-import 'package:lunasea/core.dart';
+import 'package:copularr/logic/automation/lidarr.dart';
+import 'package:copularr/core.dart';
 
 class LidarrDialogs {
     LidarrDialogs._();

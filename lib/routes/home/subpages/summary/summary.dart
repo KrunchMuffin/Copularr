@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/system.dart';
-import 'package:lunasea/routes/home/subpages/summary/sections.dart';
-import 'package:lunasea/widgets/ui.dart';
-import 'package:lunasea/logic/automation.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/system.dart';
+import 'package:copularr/routes/home/subpages/summary/sections.dart';
+import 'package:copularr/widgets/ui.dart';
+import 'package:copularr/logic/automation.dart';
 
 class Summary extends StatefulWidget {
     @override

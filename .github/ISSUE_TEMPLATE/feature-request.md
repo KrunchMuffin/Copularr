@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Suggest an idea for LunaSea
+about: Suggest an idea for Copularr
 title: "[Feature Request] "
 labels: feature request
 assignees: ''

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/system.dart';
-import 'package:lunasea/logic/automation/radarr/api.dart';
-import 'package:lunasea/routes/radarr/subpages/catalogue/addmovie/search.dart';
-import 'package:lunasea/widgets/ui.dart';
-import 'package:lunasea/routes/radarr/subpages.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/system.dart';
+import 'package:copularr/logic/automation/radarr/api.dart';
+import 'package:copularr/routes/radarr/subpages/catalogue/addmovie/search.dart';
+import 'package:copularr/widgets/ui.dart';
+import 'package:copularr/routes/radarr/subpages.dart';
 
 class Radarr extends StatefulWidget {
     @override

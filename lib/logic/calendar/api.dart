@@ -1,20 +1,20 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
-import 'package:lunasea/core.dart';
-import 'package:lunasea/system.dart';
-import 'package:lunasea/logic/abstracts.dart';
-import 'package:lunasea/logic/calendar.dart';
+import 'package:copularr/core.dart';
+import 'package:copularr/system.dart';
+import 'package:copularr/logic/abstracts.dart';
+import 'package:copularr/logic/calendar.dart';
 
 class CalendarAPI extends API {
     @override
     void logError(String methodName, String text, Object error) {
-        Logger.error('package:lunasea/logic/home/api.dart', methodName, 'Home: $text', error, StackTrace.current);
+        Logger.error('package:copularr/logic/home/api.dart', methodName, 'Home: $text', error, StackTrace.current);
     }
 
     @override
     void logWarning(String methodName, String text) {
-        Logger.warning('package:lunasea/logic/home/api.dart', methodName, 'Home: $text');
+        Logger.warning('package:copularr/logic/home/api.dart', methodName, 'Home: $text');
     }
 
     Future<Map<DateTime, List>> getUpcoming(DateTime today) async {

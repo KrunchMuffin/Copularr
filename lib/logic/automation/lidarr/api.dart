@@ -1,17 +1,17 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:lunasea/system.dart';
-import 'package:lunasea/logic/automation/lidarr.dart';
+import 'package:copularr/system.dart';
+import 'package:copularr/logic/automation/lidarr.dart';
 
 class LidarrAPI {
     LidarrAPI._();
 
     static void logWarning(String methodName, String text) {
-        Logger.warning('package:lunasea/logic/automation/lidarr/api.dart', methodName, 'Lidarr: $text');
+        Logger.warning('package:copularr/logic/automation/lidarr/api.dart', methodName, 'Lidarr: $text');
     }
 
     static void logError(String methodName, String text, Object error) {
-        Logger.error('package:lunasea/logic/automation/lidarr/api.dart', methodName, 'Lidarr: $text', error, StackTrace.current);
+        Logger.error('package:copularr/logic/automation/lidarr/api.dart', methodName, 'Lidarr: $text', error, StackTrace.current);
     }
     
     static Future<bool> testConnection(List<dynamic> values) async {
